@@ -1,22 +1,7 @@
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
 import torch
-import swanlab
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 hidden_units = 128
-
-def tanh_activation(X):
-    return np.tanh(X)
-def softmax(X):
-    exp_X = np.exp(X)
-    exp_X_sum = np.sum(exp_X, axis=1).reshape(-1, 1)
-    exp_X = exp_X / exp_X_sum
-    return exp_X
-def tanh_derivative(X):
-    return 1 - (X**2)
-
 
 def init_lstm_state(batch_size, hidden_units, device):
     return (torch.zeros((batch_size, hidden_units), device=device), 
