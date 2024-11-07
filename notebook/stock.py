@@ -1,4 +1,3 @@
-import os
 import swanlab
 import torch
 import torch.nn as nn
