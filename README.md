@@ -42,3 +42,6 @@ This project aims to provide a comprehensive understanding of how LSTM networks 
 * uv: [https://github.com/astral-sh/uv](https://github.com/astral-sh/uv)
 
 * Dive Into Deep Learning: [https://zh.d2l.ai/chapter_installation/index.html](https://zh.d2l.ai/chapter_installation/index.html)
+
+## My Traning log in SwanLab
+[https://swanlab.cn/@Harrison/Google-Stock-Prediction/overview](https://swanlab.cn/@Harrison/Google-Stock-Prediction/overview)
