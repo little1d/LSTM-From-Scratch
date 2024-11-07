@@ -1,3 +1,6 @@
-d2l==0.17.6
-torch==1.12.0
-torchvision==0.13.0
+torch
+torchvision
+swanlab
+scikit-learn
+pandas
+matplotlib
