@@ -96,10 +96,10 @@ def output_cell(hidden_state, parameters):
     output = torch.matmul(hidden_state, how)+ ob
     return output
 
-def lstm(inputs, initail_state, parameters):
+def lstm(batch_dataset, initail_state, parameters):
     hidden_state, cell_state = initail_state
     outputs = []
-    _, hidden_state, cell_state = lstm_cell(inputs, hidden_state, cell_state, parameters)
+    _, hidden_state, cell_state = lstm_cell(batch_dataset, hidden_state, cell_state, parameters)
     outputs.append(output_cell(hidden_state, parameters))    
     return outputs, (hidden_state, cell_state)
 
