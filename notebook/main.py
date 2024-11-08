@@ -1,3 +1,5 @@
+# 学习完这里的代码，您可以看看 simple_implement.py 中，使用 nn.LSTM 来实现LSTM，并包含了模型评估，预测可视化等
+
 import swanlab
 import torch
 import torch.nn as nn
