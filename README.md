@@ -11,7 +11,7 @@ conda create -n lstm python==3.10
 
 conda activate lstm
 
-pip install uv && pip install -r requirements.txt
+pip install uv && uv pip install -r requirements.txt
 
 ```
 
